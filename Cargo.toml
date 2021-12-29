@@ -1,0 +1,13 @@
+[package]
+name = "create-pda"
+version = "0.1.0"
+edition = "2021"
+license = "WTFPL"
+publish = false
+
+[dependencies]
+solana-program = "=1.9.1"
+thiserror = "1.0.24"
+
+[lib]
+crate-type = ["cdylib", "lib"]
